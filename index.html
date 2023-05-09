@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/simplebar.css">
+  <link rel="stylesheet" href="css/choices.css">
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+  <link rel="stylesheet" href="css/accordion.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=API-ключ&lang=ru_RU" defer></script>
+  <script src="js/simplebar.js" defer></script>
+  <script src="js/choices.js" defer></script>
+  <script src="js/swiper-bundle.js" defer></script>
+  <script src="js/accordion.js" defer></script>
+  <script src="js/tooltip.js" defer></script>
+  <script src="js/inputmask.min.js" defer></script>
+  <script src="js/just-validate.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <title>Blanchard</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__top">
+        <div class="header__main-cotant container">
+          <button class="header__burger button-mini burger">
+            <span class="burger__line" aria-label="Гамбургер меню"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+          <a class="header__logo-link" href="#">
+            <img src="img/logo.svg" alt="Логотип" class="header__logo main-logo">
+          </a>
+          <div class="header__nav-menu">
+            <nav class="header__nav nav">
+              <ul class="list-resset nav__list">
+                <li class="nav__item">
+                  <a href="#abaut" class="nav__link link">О&nbsp;нас</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#gallery" class="nav__link link">Галерея</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#catalog" class="nav__link link">Каталог</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#event" class="nav__link link">События</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#projects" class="nav__link link">Проекты</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contacts" class="nav__link link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__entry-button button">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
+                <path class="path" fill="none"
+                  d="m3.5 6.3.8.7 2.5-2.5L4.3 2l-.8.7L4.8 4v1L3.5 6.3ZM8 0H1a1 1 0 0 0-1 1v2h1V1h7v7H1V6H0v2c0 .6.4 1 1 1h7c.6 0 1-.4 1-1V1c0-.6-.4-1-1-1Z" />
+                <path class="path path-line" fill="none" d="M5 5V4H0v1h5Z" />
+              </svg>Войти
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <div class="header__subnav subnav container">
+          <ul class="list-resset subnav__list">
+            <li class="subnav__item">
+              <button class="subnav__button button-mini">Реализм
+                <span class="subnav__arrow"></span></button>
+              <div class="overflow">
+                <div class="scroll">
+                  <ul class="list-resset subnav__sublist">
+                    <li class="subnav__subitem background-mini-1"><a href="#" class="subnav__sublink">Тинторетто</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-2"><a href="#" class="subnav__sublink">Фридрих</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-3"><a href="#" class="subnav__sublink">Леонардо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-4"><a href="#" class="subnav__sublink">Верроккьо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-1"><a href="#" class="subnav__sublink">Тинторетто</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-2"><a href="#" class="subnav__sublink">Фридрих</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-3"><a href="#" class="subnav__sublink">Леонардо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-4"><a href="#" class="subnav__sublink">Верроккьо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-1"><a href="#" class="subnav__sublink">Тинторетто</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-2"><a href="#" class="subnav__sublink">Фридрих</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-3"><a href="#" class="subnav__sublink">Леонардо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-4"><a href="#" class="subnav__sublink">Верроккьо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-1"><a href="#" class="subnav__sublink">Тинторетто</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-2"><a href="#" class="subnav__sublink">Фридрих</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-3"><a href="#" class="subnav__sublink">Леонардо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-4"><a href="#" class="subnav__sublink">Верроккьо</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="subnav__item">
+              <button class="subnav__button button-mini">Импрессионизм
+                <span class="subnav__arrow"></span>
+              </button>
+              <div class="overflow">
+                <div class="scroll">
+                  <ul class="list-resset subnav__sublist">
+                    <li class="subnav__subitem background-mini-5"><a href="#" class="subnav__sublink">Моне</a></li>
+                    <li class="subnav__subitem background-mini-6"><a href="#" class="subnav__sublink">Сислей</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-7"><a href="#" class="subnav__sublink">Мане</a></li>
+                    <li class="subnav__subitem background-mini-8"><a href="#" class="subnav__sublink">Ренуар</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-5"><a href="#" class="subnav__sublink">Моне</a></li>
+                    <li class="subnav__subitem background-mini-6"><a href="#" class="subnav__sublink">Сислей</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-7"><a href="#" class="subnav__sublink">Мане</a></li>
+                    <li class="subnav__subitem background-mini-8"><a href="#" class="subnav__sublink">Ренуар</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-5"><a href="#" class="subnav__sublink">Моне</a></li>
+                    <li class="subnav__subitem background-mini-6"><a href="#" class="subnav__sublink">Сислей</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-7"><a href="#" class="subnav__sublink">Мане</a></li>
+                    <li class="subnav__subitem background-mini-8"><a href="#" class="subnav__sublink">Ренуар</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-5"><a href="#" class="subnav__sublink">Моне</a></li>
+                    <li class="subnav__subitem background-mini-6"><a href="#" class="subnav__sublink">Сислей</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-7"><a href="#" class="subnav__sublink">Мане</a></li>
+                    <li class="subnav__subitem background-mini-8"><a href="#" class="subnav__sublink">Ренуар</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="subnav__item">
+              <button class="subnav__button button-mini">Постимпрессионизм
+                <span class="subnav__arrow"></span>
+              </button>
+              <div class="overflow">
+                <div class="scroll">
+                  <ul class="list-resset subnav__sublist">
+                    <li class="subnav__subitem background-mini-9"><a href="#" class="subnav__sublink">Ван Гог</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-10"><a href="#" class="subnav__sublink">Сезанн</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-11"><a href="#" class="subnav__sublink">Гоген</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-12"><a href="#" class="subnav__sublink">Сёра</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-9"><a href="#" class="subnav__sublink">Ван Гог</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-10"><a href="#" class="subnav__sublink">Сезанн</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-11"><a href="#" class="subnav__sublink">Гоген</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-12"><a href="#" class="subnav__sublink">Сёра</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-9"><a href="#" class="subnav__sublink">Ван Гог</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-10"><a href="#" class="subnav__sublink">Сезанн</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-11"><a href="#" class="subnav__sublink">Гоген</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-12"><a href="#" class="subnav__sublink">Сёра</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="subnav__item">
+              <button class="subnav__button button-mini">Авангард
+                <span class="subnav__arrow"></span></button>
+              <div class="overflow">
+                <div class="scroll">
+                  <ul class="list-resset subnav__sublist">
+                    <li class="subnav__subitem background-mini-13"><a href="#" class="subnav__sublink">Кандинский</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-14"><a href="#" class="subnav__sublink">Маринетти</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-15"><a href="#" class="subnav__sublink">Малевич</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-16"><a href="#" class="subnav__sublink">Пикассо</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-13"><a href="#" class="subnav__sublink">Кандинский</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-14"><a href="#" class="subnav__sublink">Маринетти</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-15"><a href="#" class="subnav__sublink">Малевич</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-16"><a href="#" class="subnav__sublink">Пикассо</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="subnav__item">
+              <button class="subnav__button button-mini">Футуризм
+                <span class="subnav__arrow"></span></button>
+              <div class="overflow">
+                <div class="scroll">
+                  <ul class="list-resset subnav__sublist">
+                    <li class="subnav__subitem background-mini-17"><a href="#" class="subnav__sublink">Карра</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-18"><a href="#" class="subnav__sublink">Прателла</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-19"><a href="#" class="subnav__sublink">Северини</a>
+                    </li>
+                    <li class="subnav__subitem background-mini-20"><a href="#" class="subnav__sublink">Балла</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="header__search search">
+            <button class="search__active-button button-mini"><img class="search__icon" src="img/search.svg"
+                alt="Показать или скрыть меню"></button>
+            <div class="search__box">
+              <form class="search__form">
+                <button class="search__button button-mini"><img class="search__icon" src="img/search.svg"
+                    alt="Найти"></button>
+                <input class="search__input" type="search" placeholder="Поиск по сайту">
+              </form>
+              <button class="search__close-button button-mini"><img class="search__icon-close" src="img/X.svg"
+                  alt="Скрыть поиск"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero__container">
+        <h1 class="maintitle hidden">Blanchard художественная галлерея</h1>
+        <h2 class="hero__title title">Прикоснитесь к&nbsp;прекрасному</h2>
+        <p class="descr hero__descr">Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых
+          заданий создаёт предпосылки для новых предложений</p>
+        <button class="button hero__button">Подписаться на&nbsp;рассылку</button>
+      </div>
+    </section>
+    <section id="abaut" class="abaut">
+      <div class="container abaut__container">
+        <h2 class="title abaut__title">О&nbsp;нас</h2>
+        <p class="descr abaut__descr">Ясность нашей позиции очевидна: семантический разбор внешних противодействий
+          однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения
+          внутренних резервов и&nbsp;ресурсов. Не&nbsp;следует, однако, забывать, что высококачественный прототип
+          будущего проекта влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации модели развития. Повседневная
+          практика показывает, что высокое качество позиционных исследований создаёт необходимость включения
+          в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса распределения
+          внутренних резервов и&nbsp;ресурсов. В&nbsp;рамках спецификации современных стандартов, действия
+          представителей оппозиции набирают популярность среди определённых слоёв населения, а&nbsp;значит, должны быть
+          разоблачены.</p>
+      </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <div class="container gallery__container">
+        <div class="gallery__left">
+          <h2 class="title gallery__title">Галерея</h2>
+          <form class="gallery__filter">
+            <span class="gallery__subtitle">Фильтр:</span>
+            <select class="gallery__select select" name="painting" id="painting">
+              <option class="select__item" value="">Живопись</option>
+              <option class="select__item" value="">Рисунок</option>
+              <option class="select__item" value="">Скульптура</option>
+            </select>
+            <div class="gallery__checkbox-group checkboxes">
+              <label class="checkboxes__wrapper">
+                <input class="checkboxes__check" type="checkbox" name="chentury" id="chentury19">
+                <span class="checkboxes__box"><span class="checkboxes__checked"></span></span>
+                <span class="checkboxes__descr">XIX&nbsp;век</span>
+              </label>
+              <label class="checkboxes__wrapper">
+                <input class="checkboxes__check" type="checkbox" name="chentury" id="chentury20">
+                <span class="checkboxes__box"><span class="checkboxes__checked"></span></span>
+                <span class="checkboxes__descr">XX&nbsp;век</span>
+              </label>
+              <label class="checkboxes__wrapper">
+                <input class="checkboxes__check" type="checkbox" name="chentury" id="chentury21">
+                <span class="checkboxes__box"><span class="checkboxes__checked"></span></span>
+                <span class="checkboxes__descr">Современность</span>
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="gallery__right">
+          <div class="gallery__slider slider swiper">
+            <ul class="slider__list swiper-wrapper list-resset">
+              <li class="slider__item swiper-slide">
+                <a class="slider__link link-block" href="#modal-window-1" data-src-modal="img/slider-1.jpg">
+                  <picture class="slider__img-set">
+                    <source media="(min-width:1920px)" srcset="img/slider-1920-1.jpg">
+                    <source media="(min-width:1024px)" srcset="img/slider-1024-1.jpg">
+                    <source media="(min-width:768px)" srcset="img/slider-768-1.jpg">
+                    <img class="slider__img" src="img/slider-320-1.jpg" alt="Торс: фигура с&nbsp;розовым лицом">
+                  </picture>
+                </a>
+              </li>
+              <li class="slider__item swiper-slide">
+                <a class="slider__link link-block" href="#modal-window-2" data-src-modal="img/slider-2.jpg">
+                  <picture class="slider__img-set">
+                    <source media="(min-width:1920px)" srcset="img/slider-1920-2.jpg">
+                    <source media="(min-width:1024px)" srcset="img/slider-1024-2.jpg">
+                    <source media="(min-width:768px)" srcset="img/slider-768-2.jpg">
+                    <img class="slider__img" src="img/slider-320-2.jpg" alt="&laquo;Женщина с&nbsp;граблями&raquo;">
+                  </picture>
+                </a>
+              </li>
+              <li class="slider__item swiper-slide">
+                <a class="slider__link link-block" href="#modal-window-3" data-src-modal="img/slider-3.jpg">
+                  <picture class="slider__img-set">
+                    <source media="(min-width:1920px)" srcset="img/slider-1920-3.jpg">
+                    <source media="(min-width:1024px)" srcset="img/slider-1024-3.jpg">
+                    <source media="(min-width:768px)" srcset="img/slider-768-3.jpg">
+                    <img class="slider__img" src="img/slider-320-3.jpg" alt="&laquo;Уборка ржи&raquo;">
+                  </picture>
+                </a>
+              </li>
+              <li class="slider__item swiper-slide">
+                <a class="slider__link link-block" href="#modal-window-4" data-src-modal="img/slider-4.jpg">
+                  <picture class="slider__img-set">
+                    <source media="(min-width:1920px)" srcset="img/slider-1920-4.jpg">
+                    <source media="(min-width:1024px)" srcset="img/slider-1024-4.jpg">
+                    <source media="(min-width:768px)" srcset="img/slider-768-4.jpg">
+                    <img class="slider__img" src="img/slider-320-4.jpg" alt="&laquo;Супрематизм&raquo;">
+                  </picture>
+                </a>
+              </li>
+              <li class="slider__item swiper-slide">
+                <a class="slider__link link-block" href="#modal-window-5" data-src-modal="img/slider-5.jpg">
+                  <picture class="slider__img-set">
+                    <source media="(min-width:1920px)" srcset="img/slider-1920-5.jpg">
+                    <source media="(min-width:1024px)" srcset="img/slider-1024-5.jpg">
+                    <source media="(min-width:768px)" srcset="img/slider-768-5.jpg">
+                    <img class="slider__img" src="img/slider-320-5.jpg" alt="&laquo;Женщина с&nbsp;вёдрами&raquo;">
+                  </picture>
+                </a>
+              </li>
+              <li class="slider__item swiper-slide">
+                <a class="slider__link link-block" href="#modal-window-6" data-src-modal="img/slider-6.jpg">
+                  <picture class="slider__img-set">
+                    <source media="(min-width:1920px)" srcset="img/slider-1920-6.jpg">
+                    <source media="(min-width:1024px)" srcset="img/slider-1024-6.jpg">
+                    <source media="(min-width:768px)" srcset="img/slider-768-6.jpg">
+                    <img class="slider__img" src="img/slider-320-6.jpg" alt="&laquo;Супрематизм&raquo;">
+                  </picture>
+                </a>
+              </li>
+            </ul>
+            <div class="slider__nav">
+              <button class="slider__button button-circle swiper-button-prev"></button>
+              <div class="slider__pagination swiper-pagination"></div>
+              <button class="slider__button button-circle swiper-button-next"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="gallery__modal modal list-resset">
+        <li class="modal__item">
+          <dialog class="modal__window" id="modal-window-1">
+            <div class="modal__content">
+              <button class="modal__close button-mini">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+                  <path fill="#000" fill-rule="evenodd" d="M.7 15.3 15.3 0l.7.7L1.3 16l-.6-.7Z" clip-rule="evenodd" />
+                  <path fill="#000" fill-rule="evenodd" d="m.7 0 14.6 15.3-.6.7L0 .7.7 0Z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <img class="modal__img" src="img/artist-is-not-defind.svg" alt="Картина">
+              <div class="modal__text">
+                <h3 class="modal__title">Казимир Малевич</h3>
+                <h4 class="modal__subtitle subtitle-min">Торс: фигура с&nbsp;розовым лицом</h4>
+                <span class="modal__date descr-mini">1928-1929</span>
+                <p class="modal__dascr descr">Эти странные безликие &laquo;полуобразы&raquo; (так называл подобные
+                  работы сам художник), продолжая идеи супрематизации человеческого образа Малевич создает эту картину,
+                  на&nbsp;которой изображен обезличенный торс, который больше напоминает манекен портного.</p>
+              </div>
+            </div>
+          </dialog>
+        </li>
+        <li class="modal__item">
+          <dialog class="modal__window" id="modal-window-2">
+            <div class="modal__content">
+              <button class="modal__close button-mini">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+                  <path fill="#000" fill-rule="evenodd" d="M.7 15.3 15.3 0l.7.7L1.3 16l-.6-.7Z" clip-rule="evenodd" />
+                  <path fill="#000" fill-rule="evenodd" d="m.7 0 14.6 15.3-.6.7L0 .7.7 0Z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <img class="modal__img" src="img/artist-is-not-defind.svg" alt="Картина">
+              <div class="modal__text">
+                <h3 class="modal__title">Казимир Малевич</h3>
+                <h4 class="modal__subtitle subtitle-min">&laquo;Женщина с&nbsp;граблями&raquo;</h4>
+                <span class="modal__date descr-mini">1931&ndash;1932</span>
+                <p class="modal__dascr descr">Картина из&nbsp;второй серии крестьянского цикла работ Казимира Малевича.
+                  Художник принялся
+                  за&nbsp;её&nbsp;создание в&nbsp;1930&ndash;1931&nbsp;годах, после того, как первый цикл был утерян
+                  после
+                  Берлинской и&nbsp;Варшавской выставок в&nbsp;1927&nbsp;году.</p>
+              </div>
+            </div>
+          </dialog>
+        </li>
+        <li class="modal__item">
+          <dialog class="modal__window" id="modal-window-3">
+            <div class="modal__content">
+              <button class="modal__close button-mini">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+                  <path fill="#000" fill-rule="evenodd" d="M.7 15.3 15.3 0l.7.7L1.3 16l-.6-.7Z" clip-rule="evenodd" />
+                  <path fill="#000" fill-rule="evenodd" d="m.7 0 14.6 15.3-.6.7L0 .7.7 0Z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <img class="modal__img" src="img/artist-is-not-defind.svg" alt="Картина">
+              <div class="modal__text">
+                <h3 class="modal__title">Казимир Малевич</h3>
+                <h4 class="modal__subtitle subtitle-min">&laquo;Уборка ржи&raquo;</h4>
+                <span class="modal__date descr-mini">1912</span>
+                <p class="modal__dascr descr">Образы крестьянской жизни, образы сельского труда, воплощенные художником
+                  отличаются пронзительной нотой драматизма, о&nbsp;котором Малевичу и&nbsp;в&nbsp;голову
+                  не&nbsp;приходило помышлять ранее. Одной из&nbsp;наиболее заметных черт его постсупрематической
+                  живописи стала безликость людей; вместо лиц и&nbsp;голов их&nbsp;корпуса увенчаны красными, черными,
+                  белыми овалами.</p>
+              </div>
+            </div>
+          </dialog>
+        </li>
+        <li class="modal__item">
+          <dialog class="modal__window" id="modal-window-4">
+            <div class="modal__content">
+              <button class="modal__close button-mini">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+                  <path fill="#000" fill-rule="evenodd" d="M.7 15.3 15.3 0l.7.7L1.3 16l-.6-.7Z" clip-rule="evenodd" />
+                  <path fill="#000" fill-rule="evenodd" d="m.7 0 14.6 15.3-.6.7L0 .7.7 0Z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <img class="modal__img" src="img/artist-is-not-defind.svg" alt="Картина">
+              <div class="modal__text">
+                <h3 class="modal__title">Иван Клюн</h3>
+                <h4 class="modal__subtitle subtitle-min">&laquo;Супрематизм&raquo;</h4>
+                <span class="modal__date descr-mini">1916</span>
+                <p class="modal__dascr descr">«Супрематизм» – знаковая работа нового периода творчества Клюна. Ограничив
+                  число форм в картине, он концентрирует внимание главным образом на исследовании принципа их сцепления
+                  и выявлении возможностей цвета. Здесь уже появились те характерные живописно-пластические приемы,
+                  которые вскоре приведут художника к иному способу организации беспредметной картины.</p>
+              </div>
+            </div>
+          </dialog>
+        </li>
+        <li class="modal__item">
+          <dialog class="modal__window" id="modal-window-5">
+            <div class="modal__content">
+              <button class="modal__close button-mini">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+                  <path fill="#000" fill-rule="evenodd" d="M.7 15.3 15.3 0l.7.7L1.3 16l-.6-.7Z" clip-rule="evenodd" />
+                  <path fill="#000" fill-rule="evenodd" d="m.7 0 14.6 15.3-.6.7L0 .7.7 0Z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <img class="modal__img" src="img/artist-is-not-defind.svg" alt="Картина">
+              <div class="modal__text">
+                <h3 class="modal__title">Казимир Малевич</h3>
+                <h4 class="modal__subtitle subtitle-min">&laquo;Женщина с&nbsp;вёдрами&raquo;</h4>
+                <span class="modal__date descr-mini">1912</span>
+                <p class="modal__dascr descr">При тщательном рассмотрении, на&nbsp;картине &laquo;Женщина
+                  с&nbsp;вёдрами&raquo; фигура женщины смутно идентифицируется, также как и&nbsp;вёдра, которые она
+                  несет. Общая палитра состоит из&nbsp;прохладных цветов, в&nbsp;которых преобладают синие и&nbsp;серые
+                  оттенки, хотя акценты красного, желтого и&nbsp;легкой охры добавляют визуальной динамики композиции.
+                </p>
+              </div>
+            </div>
+          </dialog>
+        </li>
+        <li class="modal__item">
+          <dialog class="modal__window" id="modal-window-6">
+            <div class="modal__content">
+              <button class="modal__close button-mini">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+                  <path fill="#000" fill-rule="evenodd" d="M.7 15.3 15.3 0l.7.7L1.3 16l-.6-.7Z" clip-rule="evenodd" />
+                  <path fill="#000" fill-rule="evenodd" d="m.7 0 14.6 15.3-.6.7L0 .7.7 0Z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <img class="modal__img" src="img/artist-is-not-defind.svg" alt="Картина">
+              <div class="modal__text">
+                <h3 class="modal__title">Казимир Малевич</h3>
+                <h4 class="modal__subtitle subtitle-min">&laquo;Супрематизм&raquo;</h4>
+                <span class="modal__date descr-mini">1915&ndash;1916</span>
+                <p class="modal__dascr descr">Кресты, прямоугольники, расположенные в&nbsp;белой плоскости&nbsp;&mdash;
+                  это основная тема картины. Белый фон&nbsp;&mdash; обязательное средство выражения супрематизма
+                  на&nbsp;картине. Также важен локальный свет, который тут присутствует, что означает отсутствие теней,
+                  плоскостность изображения.</p>
+              </div>
+            </div>
+          </dialog>
+        </li>
+      </ul>
+    </section>
+    <section id="catalog" class="catalog">
+      <div class="container catalog__container">
+        <h2 class="title catalog__title">Каталог</h2>
+        <p class="descr catalog__descr">
+          Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа
+          политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали. Являясь всего
+          лишь частью общей картины, стремящиеся вытеснить традиционное производство, нанотехнологии и&nbsp;по&nbsp;сей
+          день остаются уделом либералов, которые жаждут быть функционально разнесены на&nbsp;независимые элементы.
+        </p>
+        <div class="catalog__bottom">
+          <div class="catalog__right">
+            <ul class="list-resset catalog__accordion accordion accordion-container">
+              <li class="accordion__item ac is-active">
+                <h3 class="accordion__title ac-header">
+                  <button class="accordion__button ac-trigger"><span class="accordion__title-text">С&nbsp;1400
+                      по&nbsp;1499&nbsp;гг</span> <span class="accordion__icon"></span> </button>
+                </h3>
+                <div class="accordion__descr descr ac-panel">
+                  <ul class="descr__list list-resset">
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#benedetto">Бенедетто ди&nbsp;Биндо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#bergonone">Бергоньоне,&nbsp;Амброджо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#bissolo">Биссоло,&nbsp;Франческо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#boltraffio">Больтраффио,&nbsp;Джованни</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Бонсиньори,&nbsp;Франческо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Боттичини,&nbsp;Рафаэлло</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Брамантино</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Бреа,&nbsp;Людовико</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Бьяджо д&rsquo;Антонио Туччи</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Веккьетта</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Андреа&nbsp;Верроккьо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#domwnic">Доменико&nbsp;Гирландайо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Беноццо&nbsp;Гоццоли</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Граначчи,&nbsp;Франческо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Грегорио&nbsp;ди&nbsp;Чекко</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Джованни&nbsp;да&nbsp;Удине</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Джованни&nbsp;ди&nbsp;Паоло</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Джорджоне</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Парентино,&nbsp;Бернардо</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Пезеллино</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Пьетро&nbsp;Перуджино</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Перуцци,&nbsp;Бальдассаре</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Пизанелло</a>
+                    </li>
+                    <li class="descr__item ac-text">
+                      <a class="descr__link link" href="#">Пинтуриккьо</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="accordion__item ac">
+                <h3 class="accordion__title ac-header">
+                  <button class="accordion__button ac-trigger"><span class="accordion__title-text">С&nbsp;1500
+                      по&nbsp;1599&nbsp;гг</span> <span class="accordion__icon"></span> </button>
+                </h3>
+                <div class="accordion__descr descr ac-panel">
+                  <ul class="descr__list list-resset">
+                  </ul>
+                </div>
+              </li>
+              <li class="accordion__item ac">
+                <h3 class="accordion__title ac-header">
+                  <button class="accordion__button ac-trigger"><span class="accordion__title-text">С&nbsp;1600
+                      по&nbsp;1699&nbsp;гг</span> <span class="accordion__icon"></span> </button>
+                </h3>
+                <div class="accordion__descr descr ac-panel">
+                  <ul class="descr__list list-resset">
+                  </ul>
+                </div>
+              </li>
+              <li class="accordion__item ac">
+                <h3 class="accordion__title ac-header">
+                  <button class="accordion__button ac-trigger"><span class="accordion__title-text">С&nbsp;1700
+                      по&nbsp;1799&nbsp;гг</span> <span class="accordion__icon"></span> </button>
+                </h3>
+                <div class="accordion__descr descr ac-panel">
+                  <ul class="descr__list list-resset">
+                  </ul>
+                </div>
+              </li>
+              <li class="accordion__item ac">
+                <h3 class="accordion__title ac-header">
+                  <button class="accordion__button ac-trigger"><span class="accordion__title-text">С&nbsp;1800
+                      по&nbsp;1899&nbsp;гг</span> <span class="accordion__icon"></span> </button>
+                </h3>
+                <div class="accordion__descr descr ac-panel">
+                  <ul class="descr__list list-resset">
+                  </ul>
+                </div>
+              </li>
+              <li class="accordion__item ac">
+                <h3 class="accordion__title ac-header">
+                  <button class="accordion__button ac-trigger"><span class="accordion__title-text">С&nbsp;1900
+                      по&nbsp;1999&nbsp;гг</span> <span class="accordion__icon"></span> </button>
+                </h3>
+                <div class="accordion__descr descr ac-panel">
+                  <ul class="descr__list list-resset">
+                  </ul>
+                </div>
+              </li>
+              <li class="accordion__item ac">
+                <h3 class="accordion__title ac-header">
+                  <button class="accordion__button ac-trigger"><span
+                      class="accordion__title-text">С&nbsp;2000&nbsp;г</span><span class="accordion__icon"></span>
+                  </button>
+                </h3>
+                <div class="accordion__descr descr ac-panel">
+                  <ul class="descr__list list-resset">
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="catalog__left">
+            <div class="catalog__artist artist">
+              <ul class="artist__list list-resset">
+                <li class="artist__item artist__item--active" id="domwnic">
+                  <img src="img/atalog-dominic.jpg" alt="Поклонение волхвов
+                  Картина&nbsp;&mdash; Доменико Гирландайо" class="artist__image">
+                  <h3 class="artist__name subtitle-max">Доменико Гирландайо</h3>
+                  <span class="artist__date descr-mini">2&nbsp;июня 1448&nbsp;&ndash;11 января 1494</span>
+                  <p class="artist__descr descr">Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель
+                    художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо. Глава художественной
+                    мастерской, где юный Микеланджело в&nbsp;течение года овладевал профессиональными навыками. Автор
+                    фресковых
+                    циклов, в&nbsp;которых выпукло, со&nbsp;всевозможными подробностями показана домашняя жизнь
+                    библейских
+                    персонажей (в&nbsp;их&nbsp;роли выступают знатные граждане Флоренции в&nbsp;костюмах того времени).
+                  </p>
+                </li>
+                <li class="artist__item" id="benedetto">
+                  <img src="img/BenedettoDiBindo.jpg" alt="Бенедетто ди&nbsp;Биндо картина Амброджо да Фоссано"
+                    class="artist__image">
+                  <h3 class="artist__name subtitle-max">Бенедетто ди&nbsp;Биндо</h3>
+                  <span class="artist__date descr-mini">1380&nbsp;&ndash;19 сентября 1417,</span>
+                  <p class="artist__descr descr">Бенедетто ди&nbsp;Биндо остался в&nbsp;истории искусства как сиенский
+                    художник, так сказать, &laquo;второго ряда&raquo;, несмотря на&nbsp;то, что за&nbsp;свою короткую
+                    жизнь он&nbsp;выполнил ряд весьма престижных заказов, включая работы в&nbsp;Сиенском соборе (работы
+                    в&nbsp;главном соборе республики второстепенным художникам не&nbsp;поручались).</p>
+                </li>
+                <li class="artist__item" id="bergonone">
+                  <img src="img/BergognoneAmbrogio.jpg"
+                    alt="Бенедетто ди&nbsp;Биндо. Диптих &laquo;Мадонна Смирение и&nbsp;св. Иероним, переводящий евангелие от&nbsp;Иоанна&raquo;"
+                    class="artist__image">
+                  <h3 class="artist__name subtitle-max">Бергоньоне, Амброджо</h3>
+                  <span class="artist__date descr-mini"> 1453&nbsp;&ndash;1523</span>
+                  <p class="artist__descr descr">Прозвище говорит о&nbsp;его тяготении к&nbsp;бургундской школе,
+                    по&nbsp;манере ему близок Винченцо Фоппа. Испытал влияние Леонардо да&nbsp;Винчи. Наиболее известен
+                    работами 1486&ndash;1494&nbsp;в монастырской обители картезианцев Чертоза ди&nbsp;Павия. Позднее
+                    работал в&nbsp;Милане в&nbsp;базилике Сант-Эусторджо и&nbsp;церкви Сан-Сатиро, после
+                    1497&nbsp;&mdash; в&nbsp;Лоди, в&nbsp;1512&nbsp;&mdash; в&nbsp;Бергамо, незадолго
+                    до&nbsp;смерти&nbsp;&mdash; снова в&nbsp;Милане, в&nbsp;базилике Сан-Симпличано.</p>
+                </li>
+                <li class="artist__item" id="bissolo">
+                  <img src="img/BissoloFrance.jpg" alt="Обрезание Иисуса
+                  Картина&nbsp;&mdash; Франческо Пармиджанино" class="artist__image">
+                  <h3 class="artist__name subtitle-max">Биссоло, Франческо</h3>
+                  <span class="artist__date descr-mini">1470&nbsp;&ndash;20 апреля 1554</span>
+                  <p class="artist__descr descr">Сын художника. Ученик Джованни Беллини. С&nbsp;1490 переехал
+                    в&nbsp;мастерскую Беллини. С&nbsp;1492 по&nbsp;1530 год работал в&nbsp;Венеции. Помогал учителю
+                    в&nbsp;работе над украшением Большого зала Совета Дворца дожей (Венеция). Принимал участие
+                    в&nbsp;создании украшений Церкви Иль Реденторе в&nbsp;Венеции.</p>
+                </li>
+                <li class="artist__item" id="boltraffio">
+                  <img src="img/BoltraffioGiovanni.jpg" alt="Портрет Джироламо Казио
+                  Джованни Антонио Больтраффио" class="artist__image">
+                  <h3 class="artist__name subtitle-max">Больтраффио, Джованни</h3>
+                  <span class="artist__date descr-mini">1467&nbsp;&ndash;1516</span>
+                  <p class="artist__descr descr">Вазари сообщает, что художник происходил из&nbsp;аристократической
+                    семьи. Воспитанный в&nbsp;традициях Фоппы, Бернардо Дзенале и&nbsp;Амброджо Бергоньоне,
+                    он&nbsp;прошёл обучение в&nbsp;мастерской Леонардо. Его первое произведение &laquo;Воскресение
+                    Христа, святой Леонард и&nbsp;святая Лючия&raquo; выполнено в&nbsp;1491 году совместно с&nbsp;Марко
+                    д&rsquo;Оджоно для миланской церкви Сан-Джованни-сул-Муро. Был придворным художником Лодовико Моро
+                    и&nbsp;славился своими психологическими портретами.</p>
+                </li>
+                <li class="artist__item" id="artist-is-not-defiend">
+                  <img src="img/artist-is-not-defind.svg" alt="Художник не найден" class="artist__image">
+                  <h3 class="artist__name subtitle-max">Что мы&nbsp;о&nbsp;нём знаем?</h3>
+                  <span class="artist__date descr-mini"></span>
+                  <p class="artist__descr descr">Пока ничего... Зато мы&nbsp;точно знаем, что в&nbsp;галерее есть
+                    на&nbsp;что посмотреть!</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="event" class="event">
+      <div class="container event__container">
+        <h2 class="title event__title">
+          События
+        </h2>
+        <div class="event__swiper swiper">
+          <ul class="list-resset event__list swiper-wrapper">
+            <li class="event__item swiper-slide">
+              <picture class="event__image-set">
+                <source media="(min-width:1920px)" srcset="img/event_1920-1.jpg">
+                <source media="(min-width:1024px)" srcset="img/event_320-1.jpg">
+                <source media="(min-width:768px)" srcset="img/event_768-1.jpg">
+                <img src="img/event_320-1.jpg" alt="Книжная гравюра в&nbsp;восприятии" class="event__image">
+              </picture>
+
+              <div class="event__space">
+                <span class="event__location descr-mini">Музей им. Щусева</span><span
+                  class="event__date descr-mini">с&nbsp;20&nbsp;марта по&nbsp;30&nbsp;апреля</span>
+                <h3 class="event__subtitle subtitle-max">Книжная гравюра в&nbsp;живом восприятии</h3>
+                <p class="event__descr descr">Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель
+                  художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо</p>
+                <a href="#" class="event__link link">Подробнее</a>
+              </div>
+            </li>
+            <li class="event__item swiper-slide">
+              <picture class="event__image-set">
+                <source media="(min-width:1920px)" srcset="img/event_1920-2.jpg">
+                <source media="(min-width:1024px)" srcset="img/event_320-2.jpg">
+                <source media="(min-width:768px)" srcset="img/event_768-2.jpg">
+                <img src="img/event_320-2.jpg"
+                  alt="&laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей Ильин." class="event__image">
+              </picture>
+
+              <div class="event__space">
+                <span class="event__location descr-mini">ММОМА</span><span class="event__date descr-mini">24&nbsp;марта
+                  19:00</span>
+                <h3 class="event__subtitle subtitle-max">&laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей
+                  Ильин.</h3>
+                <p class="event__descr descr">Высокий уровень вовлечения представителей целевой аудитории является
+                  чётким
+                  доказательством простого факта</p>
+                <a href="#" class="event__link link">Подробнее</a>
+              </div>
+            </li>
+            <li class="event__item swiper-slide">
+              <picture class="event__image-set">
+                <source media="(min-width:1920px)" srcset="img/event_1920-3.jpg">
+                <source media="(min-width:1024px)" srcset="img/event_320-3.jpg">
+                <source media="(min-width:768px)" srcset="img/event_768-3.jpg">
+                <img src="img/event_320-3.jpg" alt="Выставка &laquo;Формация 2020&raquo;" class="event__image">
+              </picture>
+
+              <div class="event__space">
+                <span class="event__location descr-mini">Еврейский музей</span><span
+                  class="event__date descr-mini">с&nbsp;31&nbsp;марта по&nbsp;21&nbsp;апреля</span>
+                <h3 class="event__subtitle subtitle-max">Выставка &laquo;Формация 2020&raquo;</h3>
+                <p class="event__descr descr">Идейные соображения высшего порядка, а&nbsp;также современная
+                  методология
+                  разработки играет важную роль в&nbsp;формировании глубокомысленных рассуждений</p>
+                <a href="#" class="event__link link">Подробнее</a>
+              </div>
+            </li>
+            <li class="event__item swiper-slide">
+              <picture class="event__image-set">
+                <source media="(min-width:1920px)" srcset="img/event_1920-4.jpg">
+                <source media="(min-width:1024px)" srcset="img/event_320-4.jpg">
+                <source media="(min-width:768px)" srcset="img/event_768-4.jpg">
+                <img src="img/event_320-4.jpg" alt="Джон Винзор. Фотографии из&nbsp;серии &laquo;Метафора&raquo;"
+                  class="event__image">
+              </picture>
+
+              <div class="event__space">
+                <span class="event__location descr-mini">ММАМ</span><span
+                  class="event__date descr-mini">с&nbsp;8&nbsp;апреля по&nbsp;20&nbsp;мая</span>
+                <h3 class="event__subtitle subtitle-max">Джон Винзор. Фотографии из&nbsp;серии &laquo;Метафора&raquo;
+                </h3>
+                <p class="event__descr descr">Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель
+                  художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо</p>
+                <a href="#" class="event__link link">Подробнее</a>
+              </div>
+            </li>
+            <li class="event__item swiper-slide">
+              <picture class="event__image-set">
+                <source media="(min-width:1920px)" srcset="img/event_1920-5.jpg">
+                <source media="(min-width:1024px)" srcset="img/event_320-5.jpg">
+                <source media="(min-width:768px)" srcset="img/event_768-5.jpg">
+                <img src="img/event_320-5.jpg" alt="XXIV Международная биеннале молодого искусства"
+                  class="event__image">
+              </picture>
+
+              <div class="event__space">
+                <span class="event__location descr-mini">Третьяковка на&nbsp;Крымском валу</span><span
+                  class="event__date descr-mini">с&nbsp;30&nbsp;марта по&nbsp;30&nbsp;апреля</span>
+                <h3 class="event__subtitle subtitle-max">XXIV Международная биеннале молодого искусства</h3>
+                <p class="event__descr descr">Внезапно, реплицированные с&nbsp;зарубежных источников, современные
+                  исследования</p>
+                <a href="#" class="event__link link">Подробнее</a>
+              </div>
+            </li>
+          </ul>
+          <div class="event__pagination swiper-pagination">
+          </div>
+
+        </div>
+        <button class="event__button event__button-prev button-circle swiper-button-prev"></button>
+        <button class="event__button event__button-next button-circle swiper-button-next">
+        </button>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="container projects__container">
+        <h2 class="title projects__title">Проекты</h2>
+        <p class="descr projects__descr">
+          Предварительные выводы: постоянное информационно&mdash;пропагандистское обеспечение нашей деятельности
+          однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А&nbsp;ещё независимые государства
+          смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершённой неузнаваемости, из-за чего возрастает
+          их&nbsp;статус бесполезности. Прежде всего, постоянное информационно&mdash;пропагандистское&nbsp;<span
+            class="tooltip" role="tooltip">
+            <button class="tooltip__button">
+              <svg class="tooltip__icon" width="9" height="9" viewBox="0 0 9 9" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="tooltip__path path-info"
+                  d="M3.76154 3.4551H5.23846V10H3.76154V3.4551ZM4.5 1.90259C4.21282 1.90259 3.9718 1.81126 3.77692 1.62861C3.59231 1.44597 3.5 1.22273 3.5 0.958904C3.5 0.695079 3.59231 0.471841 3.77692 0.289193C3.9718 0.0963975 4.21282 0 4.5 0C4.78718 0 5.02308 0.0913239 5.20769 0.273972C5.40256 0.446473 5.5 0.664636 5.5 0.928462C5.5 1.20243 5.40256 1.43582 5.20769 1.62861C5.02308 1.81126 4.78718 1.90259 4.5 1.90259Z"
+                  fill="black" />
+                <path class="tooltip__path path-vertical" d="M5.25 9H3.75L3.75 1.49811e-07H5.25L5.25 9Z" fill="black" />
+                <path class="tooltip__path path-horizontal" d="M9 3.75V5.25L2.81531e-07 5.25V3.75L9 3.75Z"
+                  fill="black" />
+              </svg>
+            </button>
+            <span class="tooltip__content">
+              Пример современных тенденций&nbsp;&mdash; современная методология разработки
+            </span>
+          </span> обеспечение нашей деятельности однозначно фиксирует
+          необходимость экономической целесообразности принимаемых решений. И&nbsp;нет сомнений, что действия
+          представителей оппозиции могут быть рассмотрены&nbsp;<span class="tooltip" role="tooltip">
+            <button class="tooltip__button">
+              <svg class="tooltip__icon" width="9" height="9" viewBox="0 0 9 9" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="tooltip__path path-info"
+                  d="M3.76154 3.4551H5.23846V10H3.76154V3.4551ZM4.5 1.90259C4.21282 1.90259 3.9718 1.81126 3.77692 1.62861C3.59231 1.44597 3.5 1.22273 3.5 0.958904C3.5 0.695079 3.59231 0.471841 3.77692 0.289193C3.9718 0.0963975 4.21282 0 4.5 0C4.78718 0 5.02308 0.0913239 5.20769 0.273972C5.40256 0.446473 5.5 0.664636 5.5 0.928462C5.5 1.20243 5.40256 1.43582 5.20769 1.62861C5.02308 1.81126 4.78718 1.90259 4.5 1.90259Z"
+                  fill="black" />
+                <path class="tooltip__path path-vertical" d="M5.25 9H3.75L3.75 1.49811e-07H5.25L5.25 9Z" fill="black" />
+                <path class="tooltip__path path-horizontal" d="M9 3.75V5.25L2.81531e-07 5.25V3.75L9 3.75Z"
+                  fill="black" />
+              </svg>
+            </button>
+            <span class="tooltip__content">
+              Пример современных тенденций&nbsp;&mdash; современная методология разработки
+            </span>
+          </span> исключительно в&nbsp;разрезе маркетинговых и&nbsp;финансовых&nbsp;<span class="tooltip"
+            role="tooltip">
+            <button class="tooltip__button">
+              <svg class="tooltip__icon" width="9" height="9" viewBox="0 0 9 9" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="tooltip__path path-info"
+                  d="M3.76154 3.4551H5.23846V10H3.76154V3.4551ZM4.5 1.90259C4.21282 1.90259 3.9718 1.81126 3.77692 1.62861C3.59231 1.44597 3.5 1.22273 3.5 0.958904C3.5 0.695079 3.59231 0.471841 3.77692 0.289193C3.9718 0.0963975 4.21282 0 4.5 0C4.78718 0 5.02308 0.0913239 5.20769 0.273972C5.40256 0.446473 5.5 0.664636 5.5 0.928462C5.5 1.20243 5.40256 1.43582 5.20769 1.62861C5.02308 1.81126 4.78718 1.90259 4.5 1.90259Z"
+                  fill="black" />
+                <path class="tooltip__path path-vertical" d="M5.25 9H3.75L3.75 1.49811e-07H5.25L5.25 9Z" fill="black" />
+                <path class="tooltip__path path-horizontal" d="M9 3.75V5.25L2.81531e-07 5.25V3.75L9 3.75Z"
+                  fill="black" />
+              </svg>
+            </button>
+            <span class="tooltip__content">
+              Пример современных тенденций&nbsp;&mdash; современная методология разработки
+            </span>
+          </span>
+          предпосылок. Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также представители современных социальных
+          резервов призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть смешаны
+          с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершённой неузнаваемости. Подробнее: <a
+            class="projects__link link" href="#">blanchard-art.ru/projects</a>
+        </p>
+        <div class="projects__partners partners">
+          <h3 class="subtitle-min partners__subtitle">Партнёры проектов:</h3>
+          <div class="partners__slider">
+            <button class="partner__button-prev partners__nav-btn swiper-button-prev button-circle"></button>
+            <div class="partners__swapper swiper">
+              <ul class="list-resset partners__list swiper-wrapper">
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-1.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-1.svg">
+                      <img src="img/partners-1.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-2.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-2.svg">
+                      <img src="img/partners-2.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-3.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-3.svg">
+                      <img src="img/partners-3.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-4.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-4.svg">
+                      <img src="img/partners-4.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-5.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-5.svg">
+                      <img src="img/partners-5.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-6.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-6.svg">
+                      <img src="img/partners-6.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-7.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-7.svg">
+                      <img src="img/partners-7.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-8.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-8.svg">
+                      <img src="img/partners-8.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+                <li class="partners__item swiper-slide">
+                  <a class="partners__link">
+                    <picture class="partners__logo">
+                      <source media="(min-width: 1600px)" srcset="img/partners-max-9.svg">
+                      <source media="(min-width: 768px)" srcset="img/partners-9.svg">
+                      <img src="img/partners-9.jpg" alt="Логотип партнера" class="partners__img">
+                    </picture>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <button class="partners__nav-btn partner__button-next swiper-button-next button-circle"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="contacts__top">
+        <div class="container contacts__container">
+          <h2 class="title contacts__title hidden">Контакты</h2>
+          <div id="subscribe" class="contacts__title-box">
+            <h3 class="contacts__subtitle subtitle-min">Шоурум &#8470;&nbsp;4</h3>
+            <span class="contacts__descr descr">Леонтьевский переулок, дом 5/1</span>
+          </div>
+          <form class="contacts__form">
+            <div class="contacts__input-box">
+              <label class="contacts__lable">
+                <input class="contacts__input" type="text" name="user-name" id="user-name" placeholder="Имя*"
+                  data-validate-field="name" required>
+              </label>
+              <label class="contacts__lable">
+                <input class="contacts__input" type="tel" name="user-tel" id="user-tel" placeholder="Телефон*"
+                  data-validate-field="phone" required>
+              </label>
+            </div>
+            <button class="button contacts__button">Заказать<span class="button__media-visibility-text">&nbsp;обратный
+                звонок</span></button>
+          </form>
+          <div class="contacts__messenger">
+            <h3 class="contacts__subtitle-min subtitle-min">Связаться в&nbsp;один клик</h3>
+            <ul class="contacts__list list-resset">
+              <!-- tag a = contacts__link -->
+              <li class="contacts__item list-resset"><a href="whatsapp://send?phone=">
+                  <img class="contacts__img circle-img" src="img/Whatsapp-Icon.svg" alt="мы в соцсети Whatsapp"></a></li>
+              <li class="contacts__item list-resset"><a href="tg://resolve?domain=">
+                  <img class="contacts__img circle-img" src="img/Telegram-icon.svg" alt="мы в соцсети Telegram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="contacts__map" id="map"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <a class="footer__logo-link" href="#"><img class="footer__logo main-logo" src="img/logo.svg" alt="Логотип"></a>
+      <ul class="footer__list list-resset">
+        <li class="footer__item"><a href="https://vk.com/" target="_blank" class="footer__link"><svg aria-label="мы в соцсети вконтакте"
+              class="circle-img footer__img" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+              viewBox="0 0 60 60" fill="none">
+              <path fill="#CACACA"
+                d="M30 0a30 30 0 1 0 0 60 30 30 0 0 0 0-60Zm15.2 33.2c1.4 1.4 2.9 2.7 4.2 4.2l1.4 2.1c.6 1.1 0 2.4-.9 2.4h-6.2c-1.5.1-2.8-.5-3.9-1.6l-2.4-2.7-1.1-1c-.9-.5-1.6-.3-2 .6-.6.8-.7 1.8-.7 2.8 0 1.5-.5 1.8-2 2A15.7 15.7 0 0 1 17 34.4c-3.2-4.3-5.6-9-7.8-13.9-.5-1.1-.1-1.7 1-1.7h6.1c.8 0 1.4.5 1.7 1.2 1 2.7 2.4 5.2 4 7.6.5.6 1 1.3 1.6 1.7.7.5 1.3.3 1.6-.5a23.7 23.7 0 0 0 .3-7.1c-.2-1.2-.9-2-2-2.1-.6-.1-.5-.4-.2-.7.5-.6 1-1 1.8-1h7c1 .3 1.3.8 1.5 1.9v7.7c0 .4.2 1.7 1 2 .6.2 1-.3 1.3-.7a24 24 0 0 0 4-6l1.2-3c.3-.7.8-1 1.6-1h7.3c1.1.2 1.4.7 1 1.8-.5 1.7-1.6 3.2-2.6 4.6L45 29.9c-1 1.4-1 2.1.3 3.3Z" />
+            </svg></a></li>
+        <li class="footer__item"><a href="https://ok.ru/" target="_blank" class="footer__link"><svg aria-label="мы в соцсети однокласники"
+              class="circle-img footer__img" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+              viewBox="0 0 60 60" fill="none">
+              <path fill="#CACACA" d="M25.7 19.98a4.48 4.48 0 1 0 8.96 0 4.48 4.48 0 0 0-8.95 0Z" />
+              <path fill="#CACACA" fill-rule="evenodd"
+                d="M30 60a30 30 0 1 0 0-60 30 30 0 0 0 0 60ZM19.35 19.98a10.83 10.83 0 1 1 21.67 0 10.83 10.83 0 0 1-21.67 0Zm21.73 16.4c-.14.12-2.73 2.17-7.07 3.06l6.55 6.48a2.95 2.95 0 0 1-4.17 4.17l-6.35-6.19-5.78 6.15a2.94 2.94 0 0 1-4.16.08 2.95 2.95 0 0 1-.08-4.17l6.22-6.49a18.02 18.02 0 0 1-7.3-3.08 2.95 2.95 0 0 1 3.68-4.6 13.1 13.1 0 0 0 7.42 2.15 12.8 12.8 0 0 0 7.36-2.15 2.95 2.95 0 0 1 3.68 4.6Z"
+                clip-rule="evenodd" />
+            </svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
