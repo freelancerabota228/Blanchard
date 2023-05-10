@@ -787,6 +787,7 @@ body {
 .choices__list.choices__list--dropdown {
   background-color: var(--color-black);
   border-radius: 6px;
+  z-index: 100;
 }
 
 .choices__input {
