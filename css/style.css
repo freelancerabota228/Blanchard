@@ -1510,10 +1510,6 @@ body {
   opacity: 1;
 }
 
-.partners__link:active {
-  outline: 1px solid var(--color-2);
-}
-
 .partners__link:active .partners__img {
   filter: grayscale(0%);
   opacity: 1;
