@@ -60,6 +60,37 @@
 .ac.js-enabled .ac-panel {
   visibility: hidden;
 }
+.ac .ac-panel .none_sub{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.ac .ac-panel .none_sub h3{
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.ac .ac-panel .none_sub a{
+  font-weight: 600;
+  color: #9D5CD0;
+}
+.ac .ac-panel .none_sub p{
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+.ac .ac-panel .none_sub .gray_shape_container{
+  height: 185px;
+  width: 271px;
+  border: 2px solid #999999;
+  margin: 20px;
+}
+.ac .ac-panel .none_sub .gray_shape{
+  height: 165px;
+  width: 251px;
+  margin: 8px auto;
+  background-color: #999999;
+}
 .ac.is-active .ac-panel {
   visibility: visible;
 }
