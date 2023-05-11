@@ -1119,6 +1119,11 @@
   }
 
 }
+@media (max-width: 1902px){
+  .descr__list{
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 1262px){
   .ac .ac-panel .none_sub .gray_shape_container{
     height: 134px;

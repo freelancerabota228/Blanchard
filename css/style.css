@@ -1185,6 +1185,8 @@ body {
 }
 
 .descr__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 21px 0;
   columns: 1;
   gap: 66px;
