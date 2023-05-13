@@ -291,33 +291,14 @@
   function init() {
     const mapContainer = document.querySelector('.contacts__map');
     const body = document.querySelector('.body');
-    let screenWidth = window.innerWidth;
 
-    if (screenWidth <= 1024){
-      var myMap = new ymaps.Map("map", {
-        center: [55.760236, 37.614877],
-        zoom: 14.5,
-        controls: []},
-        {
-          suppressMapOpenBlock: true
-        });
-    }else if (screenWidth <= 768){
-      var myMap = new ymaps.Map("map", {
-        center: [55.760236, 37.614877],
-        zoom: 17,
-        controls: []},
-        {
-          suppressMapOpenBlock: true
-        });
-    }else{
-      var myMap = new ymaps.Map("map", {
-        center: [55.760236, 37.614877],
-        zoom: 14,
-        controls: []},
-        {
-          suppressMapOpenBlock: true
-        });
-    }
+    var myMap = new ymaps.Map("map", {
+      center: [55.760236, 37.614877],
+      zoom: 14,
+      controls: []},
+      {
+        suppressMapOpenBlock: true
+      });
 
     const mapResize = () => {
       if (body.offsetWidth > 1750) {
@@ -401,8 +382,13 @@ window.addEventListener('resize', handleResize);
 handleResize();
 
 //пустой блок
-function none_information(item){
-  console.log(item);
+const get_artist_item = document.querySelector("#artist-is-not-defiend");
+const get_normal_item = document.querySelectorAll(".normal_item");
+function none_information(){
+  get_artist_item.classList.add("artist__item--active");
+  get_normal_item.forEach( (item) => {
+    item.classList = "artist__item normal_item";
+  });
 }
 
 // // Обнаружение открытия инструментов разработчика
