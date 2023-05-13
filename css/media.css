@@ -430,10 +430,6 @@
     width: 29px;
   }
 
-  .search__icon-close {
-    width: 23px;
-  }
-
   .gallery__container {
     flex-direction: row;
     overflow: hidden;

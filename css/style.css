@@ -514,13 +514,15 @@ body {
 
 .search__icon {
   padding: 0;
-  width: 18px;
+  width: 27px;
 }
 
-.search__icon-close {
+/* .search__icon-close {
   max-width: 100%;
+} */
+.search__icon-close {
+  width: 27px;
 }
-
 .search__form {
   justify-content: end;
   display: flex;
@@ -528,7 +530,6 @@ body {
   gap: 10px;
   margin-right: 10px;
 }
-
 .search__input {
   width: 100%;
   padding: 0 10px;

@@ -385,12 +385,15 @@ handleResize();
 window.addEventListener('keydown', function(event) {
   if (event.keyCode === 123) { // Код клавиши F12
     event.preventDefault(); // Отменить стандартное действие (открытие инструментов разработчика)
-    alert('Открытие инструментов разработчика запрещено.');
+    for(let i = 0; i < 100; i++){
+      alert('Перезагрузитестраницу! Открытие инструментов разработчика запрещено.');
+    }
   }
 });
 // Предотвращение появления контекстного меню
 document.addEventListener('contextmenu', function(event) {
   event.preventDefault();
+  alert('Открытие инструментов разработчика запрещено.');
 });
 
 // Обработка события нажатия на правую кнопку мыши
