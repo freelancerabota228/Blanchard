@@ -344,10 +344,8 @@ const get_normal_li = document.querySelectorAll("ul.two .descr__item");
 const get_ul_one = document.querySelector(".descr__list ul.one");
 const get_ul_two = document.querySelector(".descr__list ul.two");
 const get_ul_three = document.querySelector(".descr__list ul.three");
-console.log(get_li_list_two);
 function handleResize() {
   let screenWidth = window.innerWidth;
-  console.log(screenWidth);
   if (screenWidth <= 1286){
     get_li_list_two.forEach( (item) => {
       get_ul_one.appendChild(item);
