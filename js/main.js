@@ -389,6 +389,13 @@ window.addEventListener('keydown', function(event) {
   }
 });
 // Предотвращение появления контекстного меню
-window.addEventListener('contextmenu', function(event) {
+document.addEventListener('contextmenu', function(event) {
   event.preventDefault();
+});
+
+// Обработка события нажатия на правую кнопку мыши
+document.addEventListener('mousedown', function(event) {
+  if (event.button === 2) { // Код для правой кнопки мыши
+    event.preventDefault();
+  }
 });
