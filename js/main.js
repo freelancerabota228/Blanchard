@@ -346,6 +346,7 @@ const get_ul_two = document.querySelector(".descr__list ul.two");
 const get_ul_three = document.querySelector(".descr__list ul.three");
 function handleResize() {
   let screenWidth = window.innerWidth;
+  console.log(screenWidth);
   if (screenWidth <= 1286){
     get_li_list_two.forEach( (item) => {
       get_ul_one.appendChild(item);
@@ -379,3 +380,15 @@ function handleResize() {
 }
 window.addEventListener('resize', handleResize);
 handleResize();
+
+// Обнаружение открытия инструментов разработчика
+window.addEventListener('keydown', function(event) {
+  if (event.keyCode === 123) { // Код клавиши F12
+    event.preventDefault(); // Отменить стандартное действие (открытие инструментов разработчика)
+    alert('Открытие инструментов разработчика запрещено.');
+  }
+});
+// Предотвращение появления контекстного меню
+window.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
+});
