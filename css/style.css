@@ -732,8 +732,10 @@ body {
   transition: opacity .2s ease-in-out;
 }
 
-.checkboxes__check:focus~.checkboxes__box,
-.checkboxes__check:checked~.checkboxes__box~.checkboxes__descr {
+.checkboxes__check:checked~.checkboxes__box {
+  color: var(--color-2);
+}
+.checkboxes__check:checked~.checkboxes__descr {
   color: var(--color-2);
 }
 
