@@ -1750,7 +1750,9 @@ padding-bottom: 20px;
 .hero-back-3 {
   background: url(../img/hero-320-3.jpg);
 }
-
+.hero__descr br{
+  display: none;
+}
 .ymaps-2-1-79-copyright {
   display: none !important;
 }

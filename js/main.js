@@ -366,7 +366,7 @@ function handleResize() {
       get_ul_two.appendChild(item);
     });
   }
-  if(screenWidth <= 1024){
+  if (screenWidth <= 1024){
     get_li_list_three.forEach( (item) => {
       get_ul_three.appendChild(item);
     });
@@ -380,6 +380,11 @@ function handleResize() {
 }
 window.addEventListener('resize', handleResize);
 handleResize();
+
+//пустой блок
+function none_information(item){
+  console.log(item);
+}
 
 // // Обнаружение открытия инструментов разработчика
 // window.addEventListener('keydown', function(event) {

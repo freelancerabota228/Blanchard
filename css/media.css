@@ -1183,6 +1183,11 @@
     font-size: 14px;
   }
 }
+@media (max-width: 321px){
+  .hero__descr br{
+    display: block;
+  }
+}
 @media (min-width: 1740px) {
   :root {
     --gap-x: 159px;
