@@ -1182,6 +1182,9 @@
   .ac .ac-panel .none_sub p{
     font-size: 14px;
   }
+  .none3{
+    display: block;
+  }
 }
 @media (max-width: 321px){
   .hero__descr br{
