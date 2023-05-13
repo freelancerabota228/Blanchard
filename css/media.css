@@ -1158,6 +1158,11 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@media (max-width: 630px){
+  .descr__list{
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 566px){
   .ac .ac-panel .none_sub .gray_shape_container{
     height: 138px;
