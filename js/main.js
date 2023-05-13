@@ -391,24 +391,24 @@ function none_information(){
   });
 }
 
-// // Обнаружение открытия инструментов разработчика
-// window.addEventListener('keydown', function(event) {
-//   if (event.keyCode === 123) { // Код клавиши F12
-//     event.preventDefault(); // Отменить стандартное действие (открытие инструментов разработчика)
-//     for(let i = 0; i < 100; i++){
-//       alert('Перезагрузитестраницу! Открытие инструментов разработчика запрещено.');
-//     }
-//   }
-// });
-// // Предотвращение появления контекстного меню
-// document.addEventListener('contextmenu', function(event) {
-//   event.preventDefault();
-//   alert('Открытие инструментов разработчика запрещено.');
-// });
+// Обнаружение открытия инструментов разработчика
+window.addEventListener('keydown', function(event) {
+  if (event.keyCode === 123) { // Код клавиши F12
+    event.preventDefault(); // Отменить стандартное действие (открытие инструментов разработчика)
+    for(let i = 0; i < 100; i++){
+      alert('Перезагрузитестраницу! Открытие инструментов разработчика запрещено.');
+    }
+  }
+});
+// Предотвращение появления контекстного меню
+document.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
+  alert('Открытие инструментов разработчика запрещено.');
+});
 
-// // Обработка события нажатия на правую кнопку мыши
-// document.addEventListener('mousedown', function(event) {
-//   if (event.button === 2) { // Код для правой кнопки мыши
-//     event.preventDefault();
-//   }
-// });
+// Обработка события нажатия на правую кнопку мыши
+document.addEventListener('mousedown', function(event) {
+  if (event.button === 2) { // Код для правой кнопки мыши
+    event.preventDefault();
+  }
+});
