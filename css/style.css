@@ -1195,9 +1195,12 @@ body {
   columns: 1;
   gap: 66px;
 }
-
+.descr__list ul{
+  padding-left: 0;
+}
 .ac .ac-panel .descr__item {
   padding: 0;
+  list-style: none;
 }
 
 .descr__link,

@@ -337,3 +337,47 @@
     myMap.geoObjects.add(placemark);
   };
 })();
+//адоптив для листов (С 1400 по 1499 гг).
+const get_li_list_two = document.querySelectorAll(".ac .ac-panel .change_list_two");
+const get_li_list_three = document.querySelectorAll(".ac .ac-panel .change_list_three");
+const get_normal_li = document.querySelectorAll("ul.two .descr__item");
+const get_ul_one = document.querySelector(".descr__list ul.one");
+const get_ul_two = document.querySelector(".descr__list ul.two");
+const get_ul_three = document.querySelector(".descr__list ul.three");
+console.log(get_li_list_two);
+function handleResize() {
+  let screenWidth = window.innerWidth;
+  console.log(screenWidth);
+  if (screenWidth <= 1286){
+    get_li_list_two.forEach( (item) => {
+      get_ul_one.appendChild(item);
+    });
+    get_li_list_three.forEach( (item) => {
+      get_ul_two.appendChild(item);
+    });
+  }
+  else {
+    get_li_list_three.forEach( (item) => {
+      get_ul_three.appendChild(item);
+    });
+    get_li_list_two.forEach( (item) => {
+      get_ul_two.appendChild(item);
+    });
+    get_normal_li.forEach( (item) => {
+      get_ul_two.appendChild(item);
+    });
+  }
+  if(screenWidth <= 1024){
+    get_li_list_three.forEach( (item) => {
+      get_ul_three.appendChild(item);
+    });
+    get_li_list_two.forEach( (item) => {
+      get_ul_two.appendChild(item);
+    });
+    get_normal_li.forEach( (item) => {
+      get_ul_two.appendChild(item);
+    });
+  }
+}
+window.addEventListener('resize', handleResize);
+handleResize();

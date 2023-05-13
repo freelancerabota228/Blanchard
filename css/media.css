@@ -1119,9 +1119,17 @@
   }
 
 }
-@media (max-width: 1902px){
+@media (max-width: 1271px){
   .descr__list{
     grid-template-columns: 1fr 1fr;
+  }
+  .descr__list .list_three{
+    display: none;
+  }
+}
+@media (max-width: 1538px){
+  .descr__list{
+    grid-gap: 0;
   }
 }
 @media (max-width: 1262px){
@@ -1142,6 +1150,12 @@
   .ac .ac-panel .none_sub .gray_shape{
     height: 165px;
     width: 251px;
+  }
+  .descr__list .list_three{
+    display: block;
+  }
+  .descr__list{
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (max-width: 566px){
