@@ -1142,7 +1142,7 @@
     width: 173px;
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1023px){
   .ac .ac-panel .none_sub .gray_shape_container{
     height: 185px;
     width: 271px;
