@@ -291,14 +291,33 @@
   function init() {
     const mapContainer = document.querySelector('.contacts__map');
     const body = document.querySelector('.body');
+    let screenWidth = window.innerWidth;
 
-    var myMap = new ymaps.Map("map", {
-      center: [55.760236, 37.614877],
-      zoom: 14,
-      controls: []},
-      {
-        suppressMapOpenBlock: true
-      });
+    if (screenWidth <= 1024){
+      var myMap = new ymaps.Map("map", {
+        center: [55.760236, 37.614877],
+        zoom: 14.5,
+        controls: []},
+        {
+          suppressMapOpenBlock: true
+        });
+    }else if (screenWidth <= 768){
+      var myMap = new ymaps.Map("map", {
+        center: [55.760236, 37.614877],
+        zoom: 17,
+        controls: []},
+        {
+          suppressMapOpenBlock: true
+        });
+    }else{
+      var myMap = new ymaps.Map("map", {
+        center: [55.760236, 37.614877],
+        zoom: 14,
+        controls: []},
+        {
+          suppressMapOpenBlock: true
+        });
+    }
 
     const mapResize = () => {
       if (body.offsetWidth > 1750) {

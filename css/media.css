@@ -411,6 +411,9 @@
   .footer__item {
     max-width: 60px;
   }
+  #map{
+    height: 700px;
+  }
 }
 @media (min-width: 1024px) {
 
