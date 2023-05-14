@@ -1,8 +1,4 @@
 @media (min-width: 768px) {
-  .none{
-    display: block;
-  }
-
   :root {
     --gap-x: 50px;
     --gap-y: 80px;
@@ -10,6 +6,9 @@
     --hero-image-2: url(../img/hero-768-2.jpg);
     --hero-image-3: url(../img/hero-768-3.jpg);
     --partners-slider-gap: 23px;
+  }
+  .br768{
+    display: block;
   }
 
   .title {
@@ -303,10 +302,6 @@
     padding-bottom: 40px;
   }
 
-  .event__pagination.swiper-pagination {
-    display: none;
-  }
-
   /* projects */
 
   .projects__title {
@@ -570,6 +565,9 @@
 
 
 @media (min-width: 1200px) {
+  .event__pagination.swiper-pagination {
+    display: none;
+  }
 
   /* .header */
 
@@ -1128,6 +1126,9 @@
   .descr__list .list_three{
     display: none;
   }
+  .br1024{
+    display: block;
+  }
 }
 @media (max-width: 1538px){
   .descr__list{
@@ -1145,6 +1146,12 @@
   }
 }
 @media (max-width: 1023px){
+  .br1024{
+    display: none;
+  }
+  .br768{
+    display: none;
+  }
   .ac .ac-panel .none_sub .gray_shape_container{
     height: 185px;
     width: 271px;
@@ -1158,9 +1165,6 @@
   }
   .descr__list{
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  .none2{
-    display: block;
   }
 }
 @media (max-width: 630px){
@@ -1185,16 +1189,19 @@
   .ac .ac-panel .none_sub p{
     font-size: 14px;
   }
-  .none3{
-    display: block;
-  }
 }
 @media (max-width: 321px){
   .hero__descr br{
     display: block;
   }
+  .br320{
+    display: block;
+  }
 }
 @media (min-width: 1740px) {
+  .br1920{
+    display: block;
+  }
   :root {
     --gap-x: 159px;
     --hero-image-1: url(../img/hero-1920-1.jpg);

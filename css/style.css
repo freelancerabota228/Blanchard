@@ -81,6 +81,19 @@ html {
   --partners-slider-gap: 17px;
 }
 
+.br1920{
+  display: none;
+}
+.br1024{
+  display: none;
+}
+.br768{
+  display: none;
+}
+.br320{
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -91,18 +104,6 @@ body {
   font-style: normal;
   font-size: 16px;
   color: var(--color-descr);
-}
-
-.none{
-  display: none;
-}
-
-.none2{
-  display: none;
-}
-
-.none3{
-  display: none;
 }
 
 .container {
