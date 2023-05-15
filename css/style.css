@@ -222,6 +222,9 @@ body {
   outline: none;
   cursor: pointer;
 }
+.link span.about{
+  display: none;
+}
 
 .link::before {
   box-sizing: content-box;
@@ -527,7 +530,7 @@ body {
 
 .search__icon {
   padding: 0;
-  width: 27px;
+  width: 18px;
 }
 
 /* .search__icon-close {

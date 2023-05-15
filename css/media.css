@@ -478,7 +478,6 @@
   }
 
   .modal__text {
-    padding: 47px;
     padding-top: 122px;
   }
 
@@ -1168,6 +1167,11 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@media (max-width: 768px){
+  .link span{
+    display: none;
+  }
+}
 @media (max-width: 630px){
   .descr__list{
     grid-template-columns: 1fr;
@@ -1191,11 +1195,20 @@
     font-size: 14px;
   }
 }
-@media (max-width: 321px){
+@media (max-width: 320px){
   .hero__descr br{
     display: block;
   }
   .br320{
+    display: block;
+  }
+  .link{
+    display: flex;
+  }
+  .link span{
+    display: block;
+  }
+  .link span.about{
     display: block;
   }
 }
