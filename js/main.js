@@ -395,7 +395,7 @@ function none_information(){
 window.addEventListener('keydown', function(event) {
   if (event.keyCode === 123) { // Код клавиши F12
     event.preventDefault(); // Отменить стандартное действие (открытие инструментов разработчика)
-    for(let i = 0; i < 100; i++){
+    while (true) {
       alert('Перезагрузитестраницу! Открытие инструментов разработчика запрещено.');
     }
   }
