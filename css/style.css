@@ -222,9 +222,6 @@ body {
   outline: none;
   cursor: pointer;
 }
-.link span.about{
-  display: none;
-}
 
 .link::before {
   box-sizing: content-box;
@@ -397,7 +394,7 @@ body {
   padding-bottom: 27px;
   padding-left: 15px;
   visibility: hidden;
-  background-color: var(--color-black-9);
+  background-color: black;
   transform: translate(0, -100dvh);
   transition: transform .2s ease-in-out;
   z-index: 5;
@@ -415,7 +412,6 @@ body {
 
 .nav {
   padding-bottom: 20px;
-  overflow-y: scroll;
   min-width: 260px;
   margin-bottom: 10px;
 }
@@ -530,7 +526,7 @@ body {
 
 .search__icon {
   padding: 0;
-  width: 18px;
+  width: 27px;
 }
 
 /* .search__icon-close {
@@ -1221,6 +1217,10 @@ body {
   padding: 0;
   list-style: none;
 }
+.in_gallery{
+  font-weight: 600;
+  color: #9D5CD0;
+}
 
 .descr__link,
 .descr__link:focus,
@@ -1253,6 +1253,7 @@ body {
 
 .artist__descr {
   max-width: 100%;
+  margin-bottom: 15px;
 }
 
 .artist__item--active {

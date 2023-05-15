@@ -1196,6 +1196,12 @@
   }
 }
 @media (max-width: 320px){
+  .search__icon {
+    width: 17px;
+  }
+  .search__icon-close{
+    width: 17px;
+  }
   .hero__descr br{
     display: block;
   }
