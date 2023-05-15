@@ -411,6 +411,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .br768{
+    display: none;
+  }
 
   :root {
     --hero-image-1: url(../img/hero-1024-1.jpg);
@@ -565,6 +568,7 @@
 
 
 @media (min-width: 1200px) {
+
   .event__pagination.swiper-pagination {
     display: none;
   }
@@ -1147,9 +1151,6 @@
 }
 @media (max-width: 1023px){
   .br1024{
-    display: none;
-  }
-  .br768{
     display: none;
   }
   .ac .ac-panel .none_sub .gray_shape_container{
