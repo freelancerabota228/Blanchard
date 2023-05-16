@@ -1192,8 +1192,12 @@
   }
 }
 @media (max-width: 400px){
+  .ac .ac-panel .none_sub{
+    align-items:start;
+  }
   .ac .ac-panel .none_sub h3{
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
   }
   .ac .ac-panel .none_sub p{
     font-size: 14px;
