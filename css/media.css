@@ -10,7 +10,9 @@
   .br768{
     display: block;
   }
-
+  .search__icon-close{
+    width: 29px;
+  }
   .title {
     font-size: 48px;
     line-height: 65px;
@@ -21,7 +23,6 @@
     font-size: 16px;
     line-height: 32px;
   }
-
   /* burger */
 
   .burger {
@@ -431,7 +432,7 @@
   }
 
   .search__icon {
-    width: 29px;
+    width: 26.66px;
   }
 
   .gallery__container {

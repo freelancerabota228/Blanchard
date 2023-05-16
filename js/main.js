@@ -343,6 +343,7 @@ const get_li_list_three = document.querySelectorAll(".ac .ac-panel .change_list_
 const get_normal_li = document.querySelectorAll("ul.two .descr__item");
 const get_ul_one = document.querySelector(".descr__list ul.one");
 const get_ul_two = document.querySelector(".descr__list ul.two");
+const get_ul_two_normal = document.querySelectorAll(".descr__list ul.two .descr__item");
 const get_ul_three = document.querySelector(".descr__list ul.three");
 function handleResize() {
   let screenWidth = window.innerWidth;
@@ -367,14 +368,25 @@ function handleResize() {
     });
   }
   if (screenWidth <= 1024){
-    get_li_list_three.forEach( (item) => {
-      get_ul_three.appendChild(item);
+    get_normal_li.forEach( (item) => {
+      get_ul_two.appendChild(item);
     });
+    get_li_list_two.forEach( (item) => {
+      get_ul_one.appendChild(item);
+    });
+    get_li_list_three.forEach( (item) => {
+      get_ul_two.appendChild(item);
+    });
+  }
+  if (screenWidth <= 768){
     get_li_list_two.forEach( (item) => {
       get_ul_two.appendChild(item);
     });
-    get_normal_li.forEach( (item) => {
+    get_ul_two_normal.forEach( (item) => {
       get_ul_two.appendChild(item);
+    });
+    get_li_list_three.forEach( (item) => {
+      get_ul_three.appendChild(item);
     });
   }
 }
