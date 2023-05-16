@@ -1212,6 +1212,9 @@ body {
   columns: 1;
   gap: 66px;
 }
+.artist__descr br.end_descr{
+  display: none;
+}
 .descr__list ul{
   padding-left: 0;
 }
@@ -1630,6 +1633,7 @@ padding-bottom: 20px;
   padding: 12px 35px;
   color: var(--color-2);
   outline: none;
+  font-weight: 700;
 }
 
 .contacts__button:focus {

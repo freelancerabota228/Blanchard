@@ -1172,6 +1172,9 @@
   .link span{
     display: none;
   }
+  .artist__descr br.end_descr{
+    display: block;
+  }
 }
 @media (max-width: 630px){
   .descr__list{
@@ -1216,6 +1219,9 @@
     display: block;
   }
   .link span.about{
+    display: block;
+  }
+  .br1024{
     display: block;
   }
 }
