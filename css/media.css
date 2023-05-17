@@ -1204,6 +1204,9 @@
   }
 }
 @media (max-width: 320px){
+  .live{
+    display: none;
+  }
   .search__icon {
     width: 17px;
   }
