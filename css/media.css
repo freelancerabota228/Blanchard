@@ -1178,11 +1178,17 @@
   }
 }
 @media (max-width: 768px){
+  .br768{
+    display: block;
+  }
   .link span{
     display: none;
   }
   .artist__descr br.end_descr{
     display: block;
+  }
+  .ac .ac-panel .none_sub{
+    align-items:center;
   }
 }
 @media (max-width: 630px){
@@ -1210,6 +1216,9 @@
   }
   .ac .ac-panel .none_sub p{
     font-size: 14px;
+  }
+  .br768{
+    display: none;
   }
 }
 @media (max-width: 320px){
