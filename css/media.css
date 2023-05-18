@@ -193,7 +193,6 @@
   .slider {
     flex-direction: column-reverse;
     align-items: start;
-    padding-left: 3px;
     margin-left: -3px;
   }
 
@@ -265,7 +264,7 @@
   .descr__list {
     padding: 25px 0;
     columns: 3;
-    gap: 80px;
+    gap: 59px;
   }
 
   /* artist */
@@ -456,6 +455,7 @@
   }
 
   .slider__item {
+    width: 280px !important;
     height: 315px;
   }
 
@@ -881,7 +881,8 @@
   }
 
   .slider__item {
-    height: 349px;
+    height: 300px;
+    width: 300px !important;
   }
 
   /* modal */
@@ -898,7 +899,6 @@
   /* .catalog */
 
   .catalog__descr {
-    margin-bottom: 44px;
     max-width: 1100px;
   }
 
@@ -1142,11 +1142,15 @@
   .br1024{
     display: block;
   }
+  .descr-mini{
+    margin-right: 15px;
+  }
 }
-@media (max-width: 1538px){
+@media (max-width: 1600px){
   .descr__list{
     grid-gap: 0;
   }
+  
 }
 @media (max-width: 1262px){
   .ac .ac-panel .none_sub .gray_shape_container{
@@ -1175,6 +1179,7 @@
   }
   .descr__list{
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 59px;
   }
 }
 @media (max-width: 768px){
@@ -1190,10 +1195,20 @@
   .ac .ac-panel .none_sub{
     align-items:center;
   }
+  .descr-mini{
+    margin-right: 0;
+  }
+  .contacts__button{
+    font-size: 18px;
+    padding: 12px 25px;
+  }
 }
 @media (max-width: 630px){
   .descr__list{
     grid-template-columns: 1fr;
+  }
+  .descr__list{
+    gap:0;
   }
 }
 @media (max-width: 566px){
@@ -1249,10 +1264,17 @@
   .br1024{
     display: block;
   }
+  .contacts__button{
+    font-size: 13px;
+  }
 }
 @media (min-width: 1740px) {
   .br1920{
     display: block;
+  }
+  .slider__item{
+    height: 350px;
+    width: 350px !important;
   }
   :root {
     --gap-x: 159px;
