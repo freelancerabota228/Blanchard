@@ -1213,6 +1213,7 @@
 }
 @media (max-width: 566px){
   .ac .ac-panel .none_sub .gray_shape_container{
+    margin: 25px 25px 25px 0;
     height: 138px;
     width: 99px;
   }
